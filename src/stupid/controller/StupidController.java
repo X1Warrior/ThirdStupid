@@ -1,6 +1,6 @@
 package stupid.controller;
 
-import java.util.scanner;
+import java.util.Scanner;
 /**
  * 
  * @author Zach Stout
@@ -12,16 +12,15 @@ public class StupidController
 	{	
 		System.out.println("I love to play soccer and eat food");
 	}
-}
-	testScanner();
 {
 	
 }
 	private void testScanner()
-{
+    {
 	   Scanner firstScanner;
-	   firstScanner = new Scanner(System.in);
-	   system.out.prinln("what is your favorite food?")
-	   String answer = firstScannerr.next();
+	   Scanner scanner = firstScanner = new Scanner(System.in);
+	   System.out.println("what is your favorite food?");
+	   String answer = firstScanner.nextLine();
 	   System.out.println("Oh cool, you like" + answer);
+}
 }
